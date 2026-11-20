@@ -24,10 +24,13 @@ Thumbs.db
 # Root markdown files (except README, CONTRIBUTING)
 # CLAUDE.md is intentionally excluded — it contains local AI assistant context
 # and project-specific instructions not meant for public distribution. Final decision.
+# TODO.md is whitelisted in this fork: the fusion roadmap must be reviewable
+# per-branch instead of living as an untracked local note.
 /*.md
 !README.md
 !CONTRIBUTING.md
 !SECURITY.md
+!TODO.md
 
 # Godot MCP working directory
 .mcp/
